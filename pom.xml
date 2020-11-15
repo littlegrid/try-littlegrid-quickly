@@ -8,13 +8,12 @@
     <artifactId>tryquickly</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>tryquickly</name>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <coherence.ce.version>20.06</coherence.ce.version>
+        <slf4j-simple.version>1.7.30</slf4j-simple.version>
         <junit.version>4.13.1</junit.version>
-        <littlegrid.version>2.15.2</littlegrid.version>
+        <littlegrid.version>3.0.0-M5</littlegrid.version>
 
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -34,6 +33,12 @@
             <groupId>com.oracle.coherence.ce</groupId>
             <artifactId>coherence</artifactId>
             <version>${coherence.ce.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j-simple.version}</version>
         </dependency>
 
         <dependency>
