@@ -47,6 +47,7 @@
             <groupId>org.littlegrid</groupId>
             <artifactId>littlegrid</artifactId>
             <version>${littlegrid.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
